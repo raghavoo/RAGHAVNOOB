@@ -98,7 +98,7 @@ buttons = [
 HELP_STRINGS = f"""
 ๏ *{BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ*"""
 
-DONATE_STRING = f"""๏ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @roy_editx ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the_friendz ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+DONATE_STRING = f"""๏ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @RAGHAV_OP_BOT ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @raghavsupport ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -195,7 +195,7 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAI33mLYLNLilbRI-sKAAob0P7koTEJNAAIOBAACl42QVKnra4sdzC_uKQQ")
+                "CAACAgUAAx0Cd3wFvgABAiC2ZaAOXz4KXYQYvvb9CrBPgl03m-8AAt0GAAKi4uBXifHx2xHzXNU0BA")
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
@@ -385,7 +385,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/roy_editx"
+                            text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/raghavsupport"
                         ),
                     ],
                     [
@@ -523,7 +523,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [ 
                     [
-                        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", url="https://t.me/roy_editx"),InlineKeyboardButton(text="ᴛᴏᴏʟs", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", url="https://t.me/raghavsupport"),InlineKeyboardButton(text="ᴛᴏᴏʟs", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -532,14 +532,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_caption(
-            f"""❍ ᴀᴀ ɢʏᴀ ʀᴇᴘᴏ ʟᴇɴᴇ ʙᴏsᴅᴋ, ʏᴇ ᴠɪᴅᴇᴏ ᴅᴇᴋʜ ᴀᴜʀ ᴀᴘɴɪ ʀᴇᴘᴏ ʟᴇɴᴇ ᴋɪ ᴀᴀɢ ʙʜᴜᴊʜᴀ.\n\n❍ https://x-hd.video/video/-aubree-valentine-switch-roles-fta-reality-kings.html \n\n❍ ᴀᴜʀ ɴɪᴄʜᴇ ᴅɪʏᴇ ɢʏᴇ ʜᴇʀᴏᴋᴜ ᴄᴄ sᴇ ʀᴇᴀʟᴀᴛᴇᴅ ᴜᴘᴅᴀᴛᴇ ᴋᴇ ʟɪʏᴇ ʜᴇʀᴏᴋᴜ ᴄʜᴀɴɴᴇʟ ᴀᴜʀ ɢʀᴏᴜᴘ ᴋᴏ ᴊᴏɪɴ ᴋʀ ʟᴇ.
+            f"""❍ ᴀᴀ ɢʏᴀ ʀᴇᴘᴏ ʟᴇɴᴇ ʙᴏsᴅᴋ, ʏᴇ ᴠɪᴅᴇᴏ ᴅᴇᴋʜ ᴀᴜʀ ᴀᴘɴɪ ʀᴇᴘᴏ ʟᴇɴᴇ ᴋɪ ᴀᴀɢ ʙʜᴜᴊʜᴀ.\n\n❍ https://x-hd.video/video/-aubree-valentine-switch-roles-fta-reality-kings.html \n\n❍ ᴀᴜʀ ɴɪᴄʜᴇ ᴅɪʏᴇ ɢʏE BUTTON P CLICK KRKE MOJ KRO.
 """,
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [[
-                    InlineKeyboardButton(text="ᴄᴄ ɢʀᴏᴜᴘ", url="https://t.me/h_cc_help"),
-                    InlineKeyboardButton(text="ᴄᴄ ᴄʜᴀɴɴᴇʟ", url="https://t.me/H_CC_CLUB"),
+                    InlineKeyboardButton(text="DREAM GIRL", url="https://te.legra.ph/file/9a29a2619156f79afcfff.mp4"),
+                    InlineKeyboardButton(text="QT", url="https://te.legra.ph/file/f6dae19f8f70eaebc1fa7.jpg"),
                 ],
                 [InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="source_back")]]
             ),
@@ -974,7 +974,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-                            url="https://t.me/avishaxbot?startgroup=true"
+                            url="https://t.me/QTNOOB_BOT?startgroup=true"
                             )
                        ]
                 ]
