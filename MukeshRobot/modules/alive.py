@@ -10,19 +10,19 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
 
 PHOTO = [
-    "https://graph.org/file/f86b71018196c5cfe7344.jpg",
-    "https://graph.org/file/a3db9af88f25bb1b99325.jpg",
-    "https://graph.org/file/5b344a55f3d5199b63fa5.jpg",
-    "https://graph.org/file/84de4b440300297a8ecb3.jpg",
-    "https://graph.org/file/84e84ff778b045879d24f.jpg",
-    "https://graph.org/file/a4a8f0e5c0e6b18249ffc.jpg",
-    "https://graph.org/file/ed92cada78099c9c3a4f7.jpg",
-    "https://graph.org/file/d6360613d0fa7a9d2f90b.jpg"
+    "https://te.legra.ph/file/f6dae19f8f70eaebc1fa7.jpg",
+    "https://te.legra.ph/file/dc1c14251a23117337709.jpg",
+    "https://te.legra.ph/file/6140e420212ecc8a5eb5d.jpg",
+    "https://te.legra.ph/file/05fd8d1c72ea4ecab0b94.jpg",
+    "https://te.legra.ph/file/c2216b55b5184c6c82bd2.jpg",
+    "https://te.legra.ph/file/ce9449ba241a800be90ff.jpg",
+    "https://te.legra.ph/file/75be49dd237fbbb536fe5.jpg",
+    "https://te.legra.ph/file/88977fae533165fa9a3f6.jpg"
 ]
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/raghavsupport"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
@@ -49,7 +49,7 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.3)
     umm = await m.reply_sticker(
-        "CAACAgUAAxkDAAJHbmLuy2NEfrfh6lZSohacEGrVjd5wAAIOBAACl42QVKnra4sdzC_uKQQ"
+        "CAACAgUAAx0Cd3wFvgABAiC2ZaAOXz4KXYQYvvb9CrBPgl03m-8AAt0GAAKi4uBXifHx2xHzXNU0BA"
     )
     await umm.delete()
     await asyncio.sleep(0.2)
